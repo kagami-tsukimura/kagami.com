@@ -5,22 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/dist/output.css" rel="stylesheet" />
     <title>Kagami's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Klee+One&family=Open+Sans:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body>
-    <div class="border border-blue-400 p-16 my-10">
-      <h1
-        class="lg:text-7xl font-bold text-3xl sm:text-red-400 md:text-blue-400 lg:text-pink-400 xl:text-green-400"
-      >
-        TailwindCSS入門
-      </h1>
-    </div>
-    <button class="easy-button">btn</button>
-    <button
-      class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded ml-10"
-    >
-      ボタン
-    </button>
-    <button class="btn-blue btn">ボタン</button>
-    <button class="btn bg-primary-500">ボタン</button>
+  <body class="font-opensans bg-body text-white">
+    <!-- ナビゲーションバー -->
+    <header class="py-6">
+      <div>
+        <div>Kagami.com</div>
+        <div>
+          <a href="#home">ホーム</a>
+          <a href="#home">ポートフォリオ</a>
+          <a href="#home">お客様</a>
+          <a href="#home"><button>お問い合わせ</button></a>
+        </div>
+      </div>
+    </header>
   </body>
 </html>
