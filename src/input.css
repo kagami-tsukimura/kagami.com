@@ -18,3 +18,7 @@
 .img-text {
   @apply absolute inset-x-0 bottom-0 text-center font-bold bg-black bg-opacity-50 hover:bg-purple-600 hover:bg-opacity-80 transition-all duration-300 p-2;
 }
+
+.badge {
+  @apply px-4 py-2 text-sm bg-badge;
+}
