@@ -20,7 +20,7 @@
     />
   </head>
   <body class="font-opensans bg-body text-white">
-    <!-- ナビゲーションバー -->
+    <!-- Navigation bar -->
     <header class="py-6">
       <div
         class="container mx-auto flex justify-between items-center px-8 md:px-14 lg:px-24 w-full"
@@ -30,23 +30,23 @@
           <a
             href="#home"
             class="hover:text-selected-text transition-all duration-300"
-            >ホーム</a
+            >Home</a
           >
           <a
             href="#portfolio"
             class="hover:text-selected-text transition-all duration-300"
-            >ポートフォリオ</a
+            >Portfolio</a
           >
           <a
-            href="#clients"
+            href="#skills"
             class="hover:text-selected-text transition-all duration-300"
-            >お客様</a
+            >Skill Stack</a
           >
           <a href="#contact"
             ><button
               class="px-6 py-2 bg-theme font-bold rounded-lg hover:bg-purple-600 transition-all duration-300"
             >
-              お問い合わせ
+              Contact Us
             </button></a
           >
         </div>
@@ -54,7 +54,7 @@
       </div>
     </header>
 
-    <!-- ホーム -->
+    <!-- Home -->
     <div id="home" class="container mt-12"></div>
     <div class="flex flex-wrap md:flex-nowrap">
       <div class="md:my-16 md:ml-0 lg:ml-20 mx-auto max-w-xl">
@@ -83,11 +83,10 @@
       />
     </div>
 
-    <!-- ポートフォリオ -->
-    <!-- <div id="home" class="container mt-64"></div> -->
+    <!-- Portfolio -->
     <div
       id="portfolio"
-      class="container mt-64 justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full"
+      class="container mt-32 justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full"
     >
       <section class="w-full">
         <h2 class="secondary-title">My Portfolio</h2>
@@ -102,10 +101,9 @@
                 alt=""
                 class="w-full h-36 lg:h-72 object-cover rounded-md cursor-pointer"
               />
-              <div class="img-text">画像認識アプリ</div>
+              <div class="img-text">image-crassification</div>
             </a>
           </div>
-
           <div class="relative">
             <a href="https://kagami-tsukimura.github.io/text-tracing-editor/">
               <img
@@ -113,54 +111,160 @@
                 alt=""
                 class="w-full h-36 lg:h-72 object-cover rounded-md cursor-pointer"
               />
-              <div class="img-text">文字なぞりエディタ</div>
+              <div class="img-text">text-tracing-editor</div>
             </a>
           </div>
-
           <div class="relative">
-            <!-- TODO: アプリ設定する -->
+            <!-- TODO: Setting app -->
             <a href="https://google.com/">
               <img
                 src="./images/4_typing_penguin.jpeg"
                 alt=""
                 class="w-full h-36 lg:h-72 object-cover rounded-md cursor-pointer"
               />
-              <div class="img-text">編集中...</div>
+              <div class="img-text">Editing...</div>
             </a>
           </div>
           <div class="relative">
-            <!-- TODO: アプリ設定する -->
+            <!-- TODO: Setting app -->
             <a href="https://google.com/">
               <img
                 src="./images/5_typing_penguin.jpeg"
                 alt=""
                 class="w-full h-36 lg:h-72 object-cover rounded-md cursor-pointer"
               />
-              <div class="img-text">編集中...</div>
+              <div class="img-text">Editing...</div>
             </a>
           </div>
           <div class="relative">
-            <!-- TODO: アプリ設定する -->
+            <!-- TODO: Setting app -->
             <a href="https://google.com/">
               <img
                 src="./images/6_flying_penguin.jpeg"
                 alt=""
                 class="w-full h-36 lg:h-72 object-cover rounded-md cursor-pointer"
               />
-              <div class="img-text">編集中...</div>
+              <div class="img-text">Editing...</div>
             </a>
           </div>
           <div class="relative">
-            <!-- TODO: アプリ設定する -->
+            <!-- TODO: Setting app -->
             <a href="https://google.com/">
               <img
                 src="./images/7_pillow_penguin.jpeg"
                 alt=""
                 class="w-full h-36 lg:h-72 object-cover rounded-md cursor-pointer"
               />
-              <div class="img-text">編集中...</div>
+              <div class="img-text">Editing...</div>
             </a>
           </div>
+        </div>
+      </section>
+    </div>
+    <!-- Skill stacks -->
+    <div
+      id="portfolio"
+      class="container mt-32 justify-between items-center mx-auto px-4 md:px-14 lg:px-24 w-full"
+    >
+      <section class="w-full">
+        <h2 class="secondary-title">Skill Stack</h2>
+        <p class="section-paragraph">
+          I have worked with the following languages.
+        </p>
+        <div class="my-16">
+          <a href="https://github.com/kagami-tsukimura/note/">
+            <div
+              class="w-full border border-purple-300 p-16 lg:px-32 lg:py-20 flex justify-center lg:justify-start flex-wrap lg:space-x-12 :space-x-32 hover:border-yellow-300 transition-all duration-300 cursor-pointer"
+            >
+              <!-- Javascript -->
+              <div class="mb-6 lg:mb-0 self-center">
+                <i
+                  class="fa-brands fa-square-js text-7xl md:text-8xl lg:text-9xl text-yellow-300"
+                ></i>
+              </div>
+              <!-- Explanation of skills -->
+              <div>
+                <h3
+                  class="text-3xl font-semibold flex flex-wrap w-full justify-center lg:justify-start"
+                >
+                  Javascript
+                </h3>
+                <div
+                  class="flex flex-wrap w-full justify-center lg:justify-start gap-3 lg:w-auto mt-6 mb-8"
+                >
+                  <div class="badge">Website</div>
+                  <div class="badge">Frontend</div>
+                </div>
+                <p class="text-secondary">
+                  Develop in vanilla Javascript or React.
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="my-16">
+          <a
+            href="https://github.com/kagami-tsukimura/pengiuin-image-classification/"
+          >
+            <div
+              class="w-full border border-purple-300 p-16 lg:px-32 lg:py-20 flex justify-center lg:justify-start flex-wrap lg:space-x-12 :space-x-32 hover:border-blue-700 transition-all duration-300 cursor-pointer"
+            >
+              <!-- Python -->
+              <div class="mb-6 lg:mb-0 self-center">
+                <i
+                  class="fa-brands fa-python text-7xl md:text-8xl lg:text-9xl text-blue-700"
+                ></i>
+              </div>
+              <!-- Explanation of skills -->
+              <div>
+                <h3
+                  class="text-3xl font-semibold flex flex-wrap w-full justify-center lg:justify-start"
+                >
+                  Python
+                </h3>
+                <div
+                  class="flex flex-wrap w-full justify-center lg:justify-start gap-3 lg:w-auto mt-6 mb-8"
+                >
+                  <div class="badge">Deep Learning</div>
+                  <div class="badge">Data Science</div>
+                </div>
+                <p class="text-secondary">
+                  Machine learning for object detection and CNN.
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="my-16">
+          <a href="https://github.com/kagami-tsukimura/kagami-portfolio/">
+            <div
+              class="w-full border border-purple-300 p-16 lg:px-32 lg:py-20 flex justify-center lg:justify-start flex-wrap lg:space-x-12 :space-x-32 hover:border-orange-400 transition-all duration-300 cursor-pointer"
+            >
+              <!-- HTML/CSS -->
+              <div class="mb-6 lg:mb-0 self-center">
+                <i
+                  class="fa-brands fa-html5 text-7xl md:text-8xl lg:text-9xl text-orange-400"
+                ></i>
+              </div>
+              <!-- Explanation of skills -->
+              <div>
+                <h3
+                  class="text-3xl font-semibold flex flex-wrap w-full justify-center lg:justify-start"
+                >
+                  HTML/CSS
+                </h3>
+                <div
+                  class="flex flex-wrap w-full justify-center lg:justify-start gap-3 lg:w-auto mt-6 mb-8"
+                >
+                  <div class="badge">UI/UX</div>
+                  <div class="badge">Website creation.</div>
+                </div>
+                <p class="text-secondary">
+                  This page is also made with HTML and TailwindCSS.
+                </p>
+              </div>
+            </div>
+          </a>
         </div>
       </section>
     </div>
