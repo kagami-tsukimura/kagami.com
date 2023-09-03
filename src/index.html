@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/dist/output.css" rel="stylesheet" />
-    <title>Kagami's Portfolio</title>
+    <title>Kagami.com</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -25,7 +25,12 @@
       <div
         class="container mx-auto flex justify-between items-center px-8 md:px-14 lg:px-24 w-full"
       >
-        <div class="text-2xl font-bold">Kagami.com</div>
+        <div class="text-2xl font-bold">
+          <a href="#top">
+            <i class="fa-solid fa-feather"></i>
+            Kagami.com
+          </a>
+        </div>
         <div class="space-x-12 hidden md:flex items-center">
           <a
             href="#home"
@@ -42,7 +47,8 @@
             class="hover:text-selected-text transition-all duration-300"
             >Skill Stack</a
           >
-          <a href="#contact"
+          <a
+            href="https://form.run/embed/@kagami-penguin-t-eydmRhN0UUwMd1lUXdEP?embed=direct"
             ><button
               class="px-6 py-2 bg-theme font-bold rounded-lg hover:bg-purple-600 transition-all duration-300"
             >
@@ -68,18 +74,20 @@
           And Penguins!
         </h1>
         <div class="flex justify-center items-center md:flex md:justify-normal">
-          <button
-            class="px-6 py-2 bg-theme font-bold rounded-lg hover:bg-purple-600 transition-all duration-300 mt-10"
-          >
-            <i class="fa-solid fa-kiwi-bird mr-1"></i>
-            <span>Learn More</span>
-          </button>
+          <a href="https://qiita.com/kagami_t">
+            <button
+              class="px-6 py-2 bg-theme font-bold rounded-lg hover:bg-purple-600 transition-all duration-300 mt-10"
+            >
+              <i class="fa-solid fa-kiwi-bird mr-1"></i>
+              <span>Learn More on Qiita</span>
+            </button>
+          </a>
         </div>
       </div>
       <img
         src="./images/1_Humboldt.jpg"
         alt="image"
-        class="md:absolute lg:top-52 lg:right-32 md:w-3/5 w-10/12 mt-12 md:mt-0 top-60 right-6 mx-auto -z-10 lg:w-3/6"
+        class="md:absolute lg:top-36 xl:right-48 xl:w-2/5 w-7/12 mt-8 md:mt-0 top-60 right-4 -z-10 mx-auto"
       />
     </div>
 
@@ -163,8 +171,8 @@
     </div>
     <!-- Skill stacks -->
     <div
-      id="portfolio"
-      class="container mt-32 justify-between items-center mx-auto px-4 md:px-14 lg:px-24 w-full"
+      id="skills"
+      class="container mt-48 justify-between items-center mx-auto px-4 md:px-14 lg:px-24 w-full"
     >
       <section class="w-full">
         <h2 class="secondary-title">Skill Stack</h2>
@@ -265,6 +273,44 @@
               </div>
             </div>
           </a>
+        </div>
+      </section>
+    </div>
+    <!-- Contact Us -->
+    <div
+      id="contact"
+      class="container mt-48 mb-20 justify-between items-center mx-auto px-4 md:px-14 lg:px-24 w-full"
+    >
+      <section class="w-full">
+        <h2 class="secondary-title">Contact</h2>
+        <p class="section-paragraph">
+          Please feel free to contact us by clicking below.
+        </p>
+        <a
+          href="https://form.run/embed/@kagami-penguin-t-eydmRhN0UUwMd1lUXdEP?embed=direct"
+          ><button
+            class="px-6 py-2 bg-theme font-bold rounded-lg hover:bg-purple-600 transition-all duration-300"
+          >
+            Contact Us
+          </button></a
+        >
+        <!-- SNSアイコン -->
+        <div class="w-full gap-8 lg:gap-32 mt-16">
+          <div class="space-x-4 flex justify-start items-end">
+            <span class="text-xl sm:text-2xl text-secondary">Follow Us</span>
+            <a href="https://github.com/kagami-tsukimura"
+              ><i class="fa-brands fa-github icon"></i
+            ></a>
+            <a href="#"><i class="fa-brands fa-x-twitter icon"></i></a>
+            <a href="mailto:kagami.penguin.t@gmail.com"
+              ><i class="fa-solid fa-envelope icon"></i
+            ></a>
+            <a
+              href="#top"
+              class="text-2xl sm:text-3xl flex flex-wrap w-full justify-end hover:text-selected-text transition-all duration-300"
+              ><i class="fa-solid fa-circle-chevron-up"></i
+            ></a>
+          </div>
         </div>
       </section>
     </div>
