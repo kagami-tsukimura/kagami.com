@@ -80,7 +80,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "build": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch",
     "deploy": "gh-pages -d dist"
   },
   "homepage": "https://kagami-tsukimura.github.io/kagami.com/",
