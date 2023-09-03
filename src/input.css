@@ -2,11 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-html,
-body {
-  scroll-behavior: smooth;
-}
-
 .secondary-title {
   @apply text-3xl font-bold;
 }
@@ -26,8 +21,4 @@ body {
 
 .badge {
   @apply px-4 py-2 text-sm bg-badge;
-}
-
-.icon {
-  @apply text-2xl sm:text-3xl rounded-3xl p-2 bg-slate-500 hover:bg-theme transition-all duration-300;
 }
