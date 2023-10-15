@@ -13,11 +13,8 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Check if docs directory exists
-        run: |
-          if [ ! -d "docs" ]; then
-            mkdir docs
-          fi
+      - name: Create docs directory
+        run: mkdir -p docs
 
       - name: Copy files
         run: cp -a src/. docs/
