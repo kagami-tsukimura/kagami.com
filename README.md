@@ -4,7 +4,7 @@ This is a personal portfolio website created by Kagami Tsukimura.
 It is built using HTML and Tailwind CSS and serves as a showcase.  
 For skills, projects, and a means to contact the owner.
 
-[Kagami.com](https://kagami-portfolio.netlify.app/)
+[Kagami.com](https://kagami-tsukimura.github.io/kagami.com/)
 
 ## Introduction
 

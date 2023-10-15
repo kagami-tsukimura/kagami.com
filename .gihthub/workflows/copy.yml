@@ -1,0 +1,23 @@
+name: Copy to Docs
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  copy_to_docs:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Check if docs directory exists
+        run: |
+          if [ ! -d "docs" ]; then
+            mkdir docs
+          fi
+
+      - name: Copy files
+        run: cp -a src/. docs/
